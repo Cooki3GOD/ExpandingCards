@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.cardContainer {
+    margin-left: 20%;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 50px;
+    display: flex;
+    align-items: end;
+    height: 80vh;
+    border: 1px solid red;
+    border-radius: 30px;
+    
+}
+
+.card h2 {
+    display: none;
+}
+
+.card.active {
+    width: 500px;
+    transition: all 0.7s;
+}
+
+.card.active h2{
+    display: block;
+    color: white;
+    padding: 20px;
+}
+
+.first {
+    background-image: url("https://images.pexels.com/photos/29699865/pexels-photo-29699865/free-photo-of-surfer-zmierza-do-oceanu-na-plazy-santa-barbara.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.second {
+    background-image: url("https://images.pexels.com/photos/29237846/pexels-photo-29237846/free-photo-of-zolte-liscie-jesienia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.third {
+    background-image: url("https://images.pexels.com/photos/29041997/pexels-photo-29041997/free-photo-of-sklep-oliver-ibiza.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.fourth {
+    background-image: url("https://images.pexels.com/photos/17827718/pexels-photo-17827718/free-photo-of-ijsland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
